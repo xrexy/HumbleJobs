@@ -1,0 +1,14 @@
+name: HumbleJobs
+version: ${project.version}
+main: me.xrexy.humblejobs.HumbleJobs
+api-version: 1.16
+prefix: HumbleJobs
+softdepend: [ Vault ]
+authors: [ xrexy ]
+description: Lets players earn money with honest work
+
+commands:
+  humblejobs:
+    aliases: [ jobs ]
+    description: Main command of HumbleJobs
+    usage: /<command>

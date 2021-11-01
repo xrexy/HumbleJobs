@@ -1,0 +1,37 @@
+debug: true
+prefix: "&8[&2&lJobs&8]"
+
+maximum-jobs: 3
+
+# Placeholders: %player% | %job% | %level% | %xp% | %level_display% | %next_level% | %needed_xp%
+messages:
+  rank-up: "%prefix% &aYou just ranked up to &e%level_display%"
+  invalid-args: "%prefix% &cInvalid arguments"
+  invalid-player: "%prefix% &cInvalid player"
+  missing-input-player: "%prefix% &cPlease enter a player name"
+  player-no-job: "%prefix% &cPlayer &7%player% &cdoesn't have a job!"
+  xp-max: "&fMAX"
+  missing-job: "&fnone"
+  reset: "%prefix% &aSuccessfully reset all information for &e%player%"
+  help:
+    - " "
+    - "    %prefix%"
+    - " "
+    - " &f> &a/humblejobs check &e[player]"
+    - " &f> &a/humblejobs reset &e[player]"
+    - " &f> &a/humblejobs join &e&o<job>"
+    - " "
+  check:
+    - " "
+    - "      &8[ &e%player% &8| &2%level_display% &8]"
+    - " "
+    - " &F> &7Job: &a%job%"
+    - " &f> &7Level: &a%level%"
+    - " &f> &7XP: &a%xp%"
+    - " "
+    - " &f%player% &7needs &f%needed_xp% &7to reach level &f%next_level%&7!"
+    - " "
+
+economy-messages:
+  deposit-toggle: true
+  deposit-success: "%prefix% &aYou just got payed &f%amount%&a!"
