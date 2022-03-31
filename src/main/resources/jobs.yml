@@ -52,37 +52,6 @@ BLOCK_BREAK:
         commands:
           - "give %player% DIAMOND_BLOCK 32"
           - "give %player% GOLD_BLOCK 32"
-  Kurec:
-    display-name: "&cMiner"
-    valid-blocks:
-      STONE:
-        0:
-          money: 10
-          xp: 2
-      GRASS:
-        0:
-          money: 18000
-          xp: 100
-      DIRT: # coarse dirt
-        0:
-          money: 1000
-          xp: 2
-        1:
-          money: 10000
-          xp: 220
-    levels: # players are placed in job with id '1' by default
-      1:
-        display: "LEVEL 1"
-        needed_xp: 0
-        message: "%prefix% &aYou just leveled up to &eLEVEL 1"
-        commands: null
-      2:
-        display: "LEVEL 2"
-        needed_xp: 50
-        message: "%prefix% &aYou just leveled up to &eLEVEL 2"
-        commands:
-          - "give %player% DIAMOND_BLOCK 32"
-          - "give %player% GOLD_BLOCK 32"
 BLOCK_PLACE: null
 PLAYER_KILL: null
 FISH: null
