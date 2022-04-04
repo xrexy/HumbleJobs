@@ -6,7 +6,7 @@
 
 <ul>
   <li>By editting jobs.yml the administrator can create different jobs, in the section of the event he wishes to use. (Note: not all sections are implemented)
-  <li>All the events are seperated into different sections, if no job is registed to that event it is not registered, decreasing the plugin's impact on server performance</li>
+  <li>All the events are seperated into different sections, if no job is registed to that event it is not registered, decreasing the plugin's impact on server performance.</li>
 </ul>
 
 
